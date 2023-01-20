@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="style">
+                <h3 class = "headings">HOME</h3>
+                <div class = "body-style">
+                    <div class = "score">
+                        <p id = "hScore">0</p>
+                    </div>
+                    <button onclick="hOne()">+1</button>
+                    <button onclick="hTwo()">+2</button>
+                    <button onclick="hThree()">+3</button>
+                </div>
+            </div>
+            <div class="style">
+                <h3 class = "headings">GUEST</h3>
+                <div class = "body-style">
+                    <div class = "score">
+                        <p id = "gScore">0</p>
+                    </div>
+                    <button onclick="gOne()">+1</button>
+                    <button onclick="gTwo()">+2</button>
+                    <button onclick="gThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class = "new-con">
+            <button onclick="New()">New Game</button>
+            <button onclick="End()">End Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
