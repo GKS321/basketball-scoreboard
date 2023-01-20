@@ -39,7 +39,7 @@ function End() {
     else if(hsc>gsc)
         alert("Home Team has Won!!!")
     else
-        alert("Guest Team has Won!!!")
+        alert("Away Team has Won!!!")
     hsc = 0
     gsc = 0
     hs.textContent = hsc
